@@ -1,0 +1,145 @@
+body {
+    background-image: url("background.jpg");
+}
+
+h1 {
+    color: white;
+     font-size: 60px;
+    text-align: center;
+    font-family: Courier New;
+}
+h2 {
+    color: white;
+     font-size: 30px;
+    position: relative;
+    left: 10px;
+ 
+}
+h2#center {
+    color: white;
+     font-size: 30px;
+     font-family: Courier New;
+       text-align: center;
+}
+
+
+h3 {
+    color: white;
+    font-size: 40px;
+    position: relative;
+    left: 10px;
+}
+
+p {
+    color: white;
+    font-family: Courier New;
+    font-size: 20px;
+     position: relative;
+    left: 10px;
+}
+p#special {
+    color: white;
+     font-family: Courier New;
+    font-size: 20px;
+     text-align: center;
+     color: white;
+}
+p#special2 {
+    color: white;
+    font-family: Courier New;
+    font-size: 20px;
+     text-align: center;
+     color: white;
+      position: relative;
+    left: 400px;
+}
+p#moved {
+    color: white;
+    font-family: Courier New;
+    font-size: 20px;
+     text-align: center;
+     color: white;
+      position: relative;
+    left: 450px;
+}
+p#right {
+    color: white;
+    font-family: Courier New;
+    font-size: 20px;
+     text-align: right;
+     color: white;
+}
+
+img#calendar {
+    display: block;
+    margin: 0 auto;
+}
+img#balls {
+     position: relative;
+     left: 295px;
+     bottom: 150px;
+}
+img#meat {
+    position: relative;
+    left: 10px;
+}
+img#cakes {
+     position: relative;
+     left: 220px;
+     bottom: 191px;
+}
+img#pan {
+     position: relative;
+    left: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    color: white;
+}
+th, td {
+    padding: 50px;
+    display: table-cell;
+}
+div {
+    background-color: lightgrey;
+    width: 600px;
+    border: 5px solid grey;
+    padding: 10px;
+    margin: 5px;
+}
+
+div.Author {
+    background-color: white;
+    width: 250px;
+    border: 10px solid grey;
+    padding: 10px;
+    margin: 5px;
+}
+span {
+  margin-top: 2em; 
+  display: block; 
+}
